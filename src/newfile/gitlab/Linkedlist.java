@@ -3,7 +3,9 @@ import java.util.LinkedList;
 public class Linkedlist {
 	public static void main(String[] args) {
 		LinkedList m=new LinkedList();
+		System.out.println(m.size());
 			m.add("hello");
+			System.out.println(m.size());
 			m.add("coffe");
 			m.add(10);
 			m.add(10.1f);
