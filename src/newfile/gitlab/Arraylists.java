@@ -10,6 +10,7 @@ public class Arraylists {
 	u.add("this");
 	u.add("method");
 	u.add("is add");
+	System.out.println(u.indexOf("method"));
 	System.out.println(u);
 	u.remove(1);
 	System.out.println(u);
