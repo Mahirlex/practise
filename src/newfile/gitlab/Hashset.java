@@ -19,6 +19,9 @@ public class Hashset {
 		System.out.println(u.remove("mahi"));
 		System.out.println(u.equals(u));
 		System.out.println(u);
+		Object[] h=u.toArray();
+		System.out.println(h[1]);
+		System.out.println(u.hashCode());
 		
 	}
 
